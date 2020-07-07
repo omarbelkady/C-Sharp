@@ -2,17 +2,17 @@ using System;//System is a namespace and console is defined within the system na
 //in order to use the console class we need to declare the system library
 namespace Variables
 {
-    class Program
+	class Program
 	{
-	    static void logln(object o)
-	    {
-	        Console.WriteLine(o);
-	    }
+		static void logln(object o)
+		{
+			Console.WriteLine(o);
+		}
 		static void Main(string[] args)
 		{
 			//byte number;
-            //before we can display the number on the console we have to //initialize it
-            byte number=2;
+			//before we can display the number on the console we have to //initialize it
+			byte number=2;
 			int count=10;
 			//I cannot write the statement below
 			//float totalPrice=20.95;
@@ -38,7 +38,7 @@ namespace Variables
 			var character9='b';
 			var firstName1= "Joseph";
 			var isWorking9=false;
-			
+
 		}
 	}
 }
