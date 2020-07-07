@@ -9,7 +9,7 @@ namespace Non-Compat-Type-Conv
 			//If I try to cast the number variable to an int it will raise an error
 			//int i= (int) number;
 			//This will error because they are not compatible
-			//When we get an error of” cannot cast expression of type "string" to type "int"
+			//When we get an error of  "cannot cast expression of type "string" to type "int""
 			//We need to use the convert class
 			int i= Convert.ToInt32(number);
 			Console.WriteLine(i);
