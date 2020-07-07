@@ -5,7 +5,7 @@ namespace Non-Compat-Type-Conv
 	{
 		static void Main(string[] args)
 		{
-            var number = "1234";
+			var number = "1234";
 			//If I try to cast the number variable to an int it will raise an error
 			//int i= (int) number;
 			//This will error because they are not compatible
@@ -13,7 +13,7 @@ namespace Non-Compat-Type-Conv
 			//We need to use the convert class
 			int i= Convert.ToInt32(number);
 			Console.WriteLine(i);
-        }
+		}
 	}
 }
     
