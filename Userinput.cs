@@ -9,7 +9,7 @@ namespace UserInput
 			string name= Console.ReadLine();
 			Console.Write("Enter your age: ");
 			int age= Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Hello " + name +" you are "+ age+" years old");
+           	Console.WriteLine("Hello " + name +" you are "+ age+" years old");
             Console.ReadLine();
         }
        
