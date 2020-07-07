@@ -6,7 +6,7 @@ namespace Non-Compat-Type-Conv
 		static void Main(string[] args)
 		{
             var number = "1234";
-			//If I try to cast the number variable to an int it will error
+			//If I try to cast the number variable to an int it will raise an error
 			//int i= (int) number;
 			//This will error because they are not compatible
 			//When we get an error of” cannot cast expression of type "string" to type "int"
