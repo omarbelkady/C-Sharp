@@ -1,5 +1,5 @@
 using System;
-namespace Classes{
+namespace Conditionals{
     public class Individual
     {
         
