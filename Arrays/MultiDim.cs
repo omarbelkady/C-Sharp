@@ -1,6 +1,6 @@
 using System;
 namespace myAwesomeProg{
-    class JaggedArr {
+    class MultiDim {
         static void Main() {
             //int [,] player_Nums= new int [2,4];//8 players 2 rows 4 colums
             //number 3- gerard Piqué
