@@ -1,5 +1,5 @@
 using System;
-namespace Classes{
+namespace Conditionals{
     public class Individual
     {
         //We can put properties, fields, methods, etc. here
