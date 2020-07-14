@@ -12,19 +12,11 @@ namespace Classes{
         public string FName{get; set;}//property A
         public string LName{get; set;}//property B
         
-        public bool isAnnoying(bool val)
+        public void isAnnoying(bool val)
         {
-            if(val)
-            {
-                Console.WriteLine(FName+" "+ LName+" is indeed annoying");
+            if(val){
+                Console.WriteLine(FName+" "+LName+" is Annoying");
             }
-            
-            else if(!val)
-            {
-                Console.WriteLine(FName+" "+ LName+" is not annoying");
-            }
-            
-            return val;
         }
         
         
@@ -38,20 +30,6 @@ namespace Classes{
         //This is a method it does sth
         public string myFullN(){
             return FName+" "+LName;
-        }
-        
-        static void Main()
-        {
-            //Individual eliya;
-            //The above line of code will generate a null reference exception
-            //because the constructor was not called
-            Individual eliya= new Individual();
-            
-            eliya.FName="Eliya";
-            eliya.LName="Roberts";
-            Console.WriteLine(eliya.myFullN());
-            eliya.isAnnoying(false);
-            
-        }
+        } 
     }
 }
