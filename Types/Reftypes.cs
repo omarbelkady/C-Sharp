@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 namespace Reftypes{
     class Reftypes {
-        static void Main() {
+        static void Main(string [] args) {
             //Now I will use an Array which is a Reference Type
             int [] reftyp = {6,51,4};
             int [] copyOfRefTyp=reftyp;//This means that both reftyp and copyOfRefTyp point to the same array
