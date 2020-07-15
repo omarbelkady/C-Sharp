@@ -6,7 +6,7 @@ using System.Linq;
 namespace NestedForEach{
     class List
     {
-        static void Main() 
+        static void Main(string [] args) 
         {
         
             List<List<int>> PlayerNumbers=new List<List<int>>()
