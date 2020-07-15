@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 namespace MyAwesomeProg{
     class OOP {
-        static void Main() {
+        static void Main(string [] args) {
             //A field is a way for us to store data in a class
             //A field is similar to a variable except it is at the class level
             //Instead of a method
