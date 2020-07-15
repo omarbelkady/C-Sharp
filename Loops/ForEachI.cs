@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ForEach{
-    class List
+namespace MyAwesomeProg{
+    class ForEachI
     {
         static void Main() 
         {
