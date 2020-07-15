@@ -5,7 +5,7 @@ using System.Linq;
 namespace MyAwesomeProg{
     class ForEachI
     {
-        static void Main() 
+        static void Main(string[] args) 
         {
         
             List<string> bestPlayers=new List<string>(){
