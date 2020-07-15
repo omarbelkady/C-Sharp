@@ -18,15 +18,11 @@ namespace MyAwesomeProg{
             //type Identifier
             
         }
-        static void Wr_L(object o)
-        {
-            Console.WriteLine(o);
-        }
+        static void Wr_L(object o)=>Console.WriteLine(o);
+     
         
-        static void Wr_i(object m)
-        {
-            Console.Write(m);
-        }
+        static void Wr_i(object m)=>Console.Write(m);
+      
     }
     
     //This is an Auto implemented Property
@@ -38,9 +34,9 @@ namespace MyAwesomeProg{
         }
         
         //SSN is a property 
-        private int SSN{
+        public int SSN{
             get;
-            set;
+            private set;
         }
     }
 }
