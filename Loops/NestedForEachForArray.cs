@@ -6,7 +6,7 @@ using System.Linq;
 namespace NestedForEachForArray{
     class List
     {
-        static void Main() 
+        static void Main(string [] args) 
         {
         
             int [][] PlayerNumbers= //As you can see no new keyword and 2526 56837 2!
