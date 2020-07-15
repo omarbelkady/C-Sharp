@@ -1,7 +1,7 @@
 using System;
 namespace ValTypes{
     class ValTypes {
-        static void Main() {
+        static void Main(string [] args) {
             //if I have a variable and that is of value type
             //it directly contains whatever I assign to it.
             int a = 16;
