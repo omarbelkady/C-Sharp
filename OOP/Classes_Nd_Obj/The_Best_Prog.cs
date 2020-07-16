@@ -16,16 +16,9 @@ namespace myAwesomeProg{
             MyClass strawBerry= new MyClass();
         }
         
+        static void Wr_L(object o)=>Console.WriteLine(o);//Includes a new line char
         
-        static void Wr_L(object o)//Includes a new line char
-        {
-            Console.WriteLine(o);
-        }
-        
-        static void Wr_i(object m)//DOESN't
-        {
-            Console.Write(m);
-        }
+        static void Wr_i(object m)=>Console.Write(m);//Includes a new line char
         
     }
 }
