@@ -22,7 +22,7 @@ namespace FieldMaking{
             merc.Model="CLA250";
             merc.Year=2019;
             
-            Console.WriteLine("I have a "+merc.Year+" "+merc.Manufacturer+" "+merc.Model);
+            Wr_L("I have a "+merc.Year+" "+merc.Manufacturer+" "+merc.Model);
         }
         
     }
