@@ -42,7 +42,11 @@ namespace MyAwesomeProg{
 }
 ```
 ## 4 Main Topics
-* Encapsulation
+* Encapsulation: the process of putting a layer around something.
+To put a shield on the inner details of it and give us the power to expose only what we want to expose. 
+This is mainly used in Fields. Fields are variables at the class level. 
+Now properties act a gate to the fields. We have to go through a property for us to get or set the field.
+
 * Abstraction
 * Inheritance 
 * Polymorphism 
