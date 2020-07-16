@@ -41,3 +41,8 @@ namespace MyAwesomeProg{
     }
 }
 ```
+## 4 Main Topics
+* Encapsulation
+* Abstraction
+* Inheritance 
+* Polymorphism 
