@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace OverrideEqualsNdToString
+namespace OverrideEquals
 {
     public class User
     {
