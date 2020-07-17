@@ -11,26 +11,9 @@ namespace Cust_Typ_In_Loop
         public string FName{get;set;}
         public string LName {get;set;}
         
-        public string TheFullName{
-            get{
-                return FName+" "+LName;
-            }
-        }
+        public string TheFullName{get{return FName+" "+LName;}}
         
         public string Major {get;set;}
         public int Year {get;set;}
-        
-        
-        /*public string outingToCons(int num)
-        {
-            string msg="";
-            for(int j=0;j<num;j++)
-            {
-                msg += FName+ " " +LName + " "+ Year+"\n";
-            }
-            return msg;
-        }
-        */
-
     }
 }
