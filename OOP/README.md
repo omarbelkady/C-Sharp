@@ -47,6 +47,6 @@ To put a shield on the inner details of it and give us the power to expose only 
 This is mainly used in Fields. Fields are variables at the class level. 
 Now properties act a gate to the fields. We have to go through a property for us to get or set the field.
 
-* Abstraction
+* Abstraction: When something cannot exist directly it is said to be abstract.
 * Inheritance 
 * Polymorphism 
