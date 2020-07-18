@@ -54,4 +54,6 @@ the derived classes to create their own implementation of the abstract method in
 
 * Inheritance 
 
-* Polymorphism 
+* Polymorphism: When things can morph from one type of object to another type of object thanks to Inheritance. So we have two classes Student and Teacher, a Student
+is not a Teacher and a Teacher is not a Student. However, both Student and Teacher inherit from User or Person. The beauty of polymorphism is that it allows a
+Student to be considered a Student or more generally a User. The same is true with Teacher, a Teacher can be considered a Teacher or more generally a User.
