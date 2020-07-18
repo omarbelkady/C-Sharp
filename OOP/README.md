@@ -44,8 +44,45 @@ namespace MyAwesomeProg{
 ## 4 Main Topics
 * Encapsulation: the process of putting a layer around something.
 To put a shield on the inner details of it and give us the power to expose only what we want to expose. 
-This is mainly used in Fields. Fields are variables at the class level. 
-Now properties act a gate to the fields. We have to go through a property for us to get or set the field.
+This is mainly used in Fields. Fields are variables at the class level. Encapsulation allow us to use 
+Now properties act a gate to the fields. We have to go through a property for us to get or set the field. Encapsulation prevents any outside source
+to see the implementation of our function in contrast to Abstraction(which exposes certain features). Encapsulation controls the level of abstraction we want
+to show to any outside source.
+```cs
+using System;
+
+namespace RectangleArea {
+   class Rectangle {
+      //member variables
+      internal double len;
+      internal double wi;
+      
+      double RetArea() {
+         return len * wi;
+      }
+      public void Output() {
+         Console.WriteLine("The Length: {0}", len);
+         Console.WriteLine("The Width: {0}", wi);
+         Console.WriteLine("Area Output(Length*Width): {0}", RetArea());
+      }
+   }
+   
+   class ExecRectFunc {
+      static void Main(string[] args) {
+         Rectangle myRect = new Rectangle();
+         myRect.len = 4.5;
+         myRect.wi = 3.5;
+         myRect.Output();
+         Console.ReadLine();
+      }
+   }
+}
+```
+As you can see I didn't provide an access modifier for the function RetArea. When the access modifier is not specified to a function defined within our class,
+the function's access modifier defaults to private which is the case for RetArea. I used the keyword internal which means expose the values of the variable
+only to functions and variables within the class.
+
+
 
 * Abstraction: When something cannot exist directly it is said to be abstract. If you want to prevent people from creating Users directly you declare
 the class Abstract. By doing this you force them to make a Student, Teacher, employee. You make the class abstract. If you try to create an instance of an
