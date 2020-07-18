@@ -34,6 +34,5 @@ public class Car{
 
 }
 Car ford = new Car("Mustang");
-
-All in all, just remember constructors allow you to instantiate a class into an object.
 ```
+All in all, just remember constructors allow you to instantiate a class into an object.
