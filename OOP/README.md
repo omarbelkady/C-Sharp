@@ -49,7 +49,8 @@ Now properties act a gate to the fields. We have to go through a property for us
 
 * Abstraction: When something cannot exist directly it is said to be abstract. If you want to prevent people from creating Users directly you declare
 the class Abstract. By doing this you force them to make a Student, Teacher, employee. You make the class abstract. If you try to create an instance of an
-abstract class then you will get an error: Cannot create an instance of the abstract class.
+abstract class then you will get an error: Cannot create an instance of the abstract class. When it comes to methods in the base class declared abstract. You force
+the derived classes to create their own implementation of the abstract method in the base class.
 
 * Inheritance 
 
