@@ -16,7 +16,7 @@ namespace Polymorphism
         
         public override void overrideThisPlease()
         {
-            Wr_L("Howdy Howdy y'all my I just overrode the User meth and by I, I am a Prof and my name is "+TheFullName);
+            Wr_L("Howdy Howdy y'all my I just overrode the User meth and by I, I am a Prof: "+TheFullName);
         }
     }
 }
