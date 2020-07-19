@@ -1,7 +1,7 @@
 using System; 
 using System.Collections; 
   
-class Queues { 
+class GFG { 
   
     // Driver code 
     public static void Main() 
@@ -24,5 +24,10 @@ class Queues {
   
         Console.WriteLine(omarsQ.Count);
         
+        //How to iterate throu a Queue
+        foreach(object j in omarsQ)
+        {
+            Console.WriteLine(j);
+        }       
     } 
-} 
+}
