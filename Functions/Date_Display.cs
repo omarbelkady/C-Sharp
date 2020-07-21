@@ -1,4 +1,3 @@
-//This program converts a 24-hour clock to 12-hour clock
 using System;
 using System.Globalization;
 
